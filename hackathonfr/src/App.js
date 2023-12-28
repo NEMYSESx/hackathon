@@ -20,9 +20,9 @@ function App() {
           <Route path="api/user/reset/:id/:token" element={<ResetPassword />} />
           <Route path="/home" element={<Home />}>
             <Route index element={<Review />} />
-            <Route path="home/community" element={<Community />} />
-            <Route path="home/profile" element={<Profile />} />
-            <Route path="home/review" element={<Review />} />
+            <Route path="community" element={<Community />} />
+            <Route path="profile" element={<Profile />} />
+            <Route path="review" element={<Review />} />
           </Route>
           <Route path="*" element={<h1>404 page not found</h1>}></Route>
         </Routes>
