@@ -19,7 +19,6 @@ function App() {
           <Route path="/registration" element={<Registration />} />
           <Route path="api/user/reset/:id/:token" element={<ResetPassword />} />
           <Route path="/home" element={<Home />}>
-            <Route index element={<Review />} />
             <Route path="community" element={<Community />} />
             <Route path="profile" element={<Profile />} />
             <Route path="review" element={<Review />} />

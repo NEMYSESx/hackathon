@@ -16,7 +16,7 @@ const Navbar = () => {
               style={({ isActive }) => {
                 return { backgroundColor: isActive ? "black" : "" };
               }}
-              to="home/review"
+              to="/home/review"
             >
               Review
             </Button>
@@ -26,7 +26,7 @@ const Navbar = () => {
               style={({ isActive }) => {
                 return { backgroundColor: isActive ? "black" : "" };
               }}
-              to="home/community"
+              to="/home/community"
             >
               COMMUNITY
             </Button>
@@ -36,7 +36,7 @@ const Navbar = () => {
               style={({ isActive }) => {
                 return { backgroundColor: isActive ? "black" : "" };
               }}
-              to="home/profile"
+              to="/home/profile"
             >
               PROFILE
             </Button>
