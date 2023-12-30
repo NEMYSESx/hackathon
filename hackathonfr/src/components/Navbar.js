@@ -8,7 +8,7 @@ const Navbar = () => {
         <AppBar position="static" color="secondary">
           <Toolbar>
             <Typography varient="h5" component="div" sx={{ flexGrow: 1 }}>
-              Register for free candy
+              Police Review System
             </Typography>
             <Button
               component={NavLink}
